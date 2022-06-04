@@ -122,7 +122,7 @@ const monthsArr = ["March", "Jan", "Feb", "Dec"];
 monthsArr.sort();
 console.log(monthsArr); // "Dec", "Feb", "Jan", "March"
 
-const numbersArr = [1, 30, 4, 21, 100000];
+const numbersArr = [1, 30, 4, 21, 100000, 10];
 numbersArr.sort((first, second) => {
   return second - first;
 });
